@@ -175,6 +175,15 @@ body {
   font-family: myFont;
   line-height: 40px;
 }
+
+.corps .corps-body {
+  margin-left: 1em;
+  padding-left: 1em;
+  border-left-style: dotted;
+  border-left-color: orange;
+  border-left-width: 0.5em;
+}
+
 .corps h2 {
   background-color: rgb(176, 218, 255);
   padding-left: 15px;
