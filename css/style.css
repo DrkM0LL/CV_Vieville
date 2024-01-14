@@ -175,27 +175,27 @@ body {
   font-family: myFont;
   line-height: 40px;
 }
-.corps h1 {
+.corps h2 {
   background-color: rgb(176, 218, 255);
   padding-left: 15px;
   font-family: myFont;
   font-size: x-large;
   text-transform: uppercase;
 }
-.education-item h2 {
+.education-item h3 {
   background-color: aliceblue;
   padding-left: 20px;
   font-family: myFont;
   font-size: medium;
   text-transform: uppercase;
 }
-.education-item h3 {
+.education-item h4 {
   background-color: antiquewhite;
   padding-left: 30px;
   font-family: myFont;
   text-transform: uppercase;
 }
-.education-item h4 {
+.education-item h5 {
   padding-left: 30px;
   font-family: myFont;
   font-size: small;
