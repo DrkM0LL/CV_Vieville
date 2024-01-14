@@ -1,0 +1,220 @@
+html,
+body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(./../fonts/SugarFont-Regular.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: myFontbold;
+  src: url(./../fonts/SugarFont-Bold.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 900px;
+  max-width: border-box;
+}
+.top {
+  background-color: #e6e7e8;
+  min-height: 250px;
+  max-height: 250px;
+  overflow: hidden;
+}
+.side {
+  background-color: #e6e7e8;
+  width: 250px;
+  float: left;
+  min-height: 250px;
+  max-height: 250px;
+}
+.side img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  padding: 45px 45px 45px 45px;
+}
+.description {
+  background-color: #e6e7e8;
+  width: 650px;
+  float: left;
+  min-height: 250px;
+  max-height: 250px;
+}
+.description h1 {
+  padding-top: 35px;
+  padding-left: 5px;
+  font-family: myFontbold;
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
+.description h3 {
+  padding-left: 5px;
+  font-family: myFontbold;
+  font-size: 16px;
+  color: steelblue;
+  font-style: normal;
+  line-height: 2px;
+  font-weight: 500;
+}
+.description p {
+  width: 450px;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-family: myFont;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.middle {
+  background-color: rgb(81, 163, 230);
+  min-height: 40px;
+  max-height: 40px;
+  overflow: hidden;
+}
+.colonne1 {
+  background-color: rgb(81, 163, 230);
+  width: 300px;
+  float: left;
+  min-height: 40px;
+  max-height: 40px;
+  overflow: hidden;
+}
+.sub1colonne1 {
+  background-color: rgb(81, 163, 230);
+  width: 100px;
+  min-height: 40px;
+  max-height: 40px;
+  float: left;
+}
+.sub1colonne1 img {
+  width: 29px;
+  height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 59px;
+}
+.sub2colonne1 {
+  background-color: rgb(81, 163, 230);
+  min-height: 40px;
+  width: 200px;
+  float: right;
+  font-family: myFont;
+  line-height: 40px;
+}
+
+.colonne2 {
+  background-color: rgb(81, 163, 230);
+  width: 300px;
+  float: left;
+  min-height: 40px;
+  max-height: 40px;
+}
+.sub1colonne2 {
+  background-color: rgb(81, 163, 230);
+  width: 60px;
+  min-height: 40px;
+  max-height: 40px;
+  float: left;
+}
+.sub1colonne2 img {
+  width: 16px;
+  height: 21px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 22px;
+}
+.sub2colonne2 {
+  background-color: rgb(81, 163, 230);
+  min-height: 40px;
+  width: 240px;
+  float: right;
+  font-family: myFont;
+  line-height: 40px;
+}
+.colonne3 {
+  background-color: rgb(81, 163, 230);
+  width: 300px;
+  float: left;
+  min-height: 40px;
+  max-height: 40px;
+}
+.sub1colonne3 {
+  background-color: rgb(81, 163, 230);
+  width: 50px;
+  min-height: 40px;
+  max-height: 40px;
+  float: left;
+}
+.sub1colonne3 img {
+  width: 16px;
+  height: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 22px;
+}
+.sub2colonne3 {
+  background-color: rgb(81, 163, 230);
+  min-height: 40px;
+  width: 250px;
+  float: right;
+  font-family: myFont;
+  line-height: 40px;
+}
+.corps h1 {
+  background-color: rgb(176, 218, 255);
+  padding-left: 15px;
+  font-family: myFont;
+  font-size: x-large;
+  text-transform: uppercase;
+}
+.university h2 {
+  background-color: aliceblue;
+  padding-left: 20px;
+  font-family: myFont;
+  font-size: medium;
+  text-transform: uppercase;
+}
+.university h3 {
+  background-color: antiquewhite;
+  padding-left: 30px;
+  font-family: myFont;
+  text-transform: uppercase;
+}
+.university h4 {
+  padding-left: 30px;
+  font-family: myFont;
+  font-size: small;
+}
+.highSchool h2 {
+  background-color: aliceblue;
+  padding-left: 20px;
+  font-family: myFont;
+  font-size: medium;
+  text-transform: uppercase;
+}
+.highSchool h3 {
+  background-color: antiquewhite;
+  padding-left: 30px;
+  font-family: myFont;
+  text-transform: uppercase;
+}
+.highSchool h4 {
+  padding-left: 30px;
+  font-family: myFont;
+  font-size: small;
+}
