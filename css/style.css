@@ -182,38 +182,20 @@ body {
   font-size: x-large;
   text-transform: uppercase;
 }
-.university h2 {
+.education-item h2 {
   background-color: aliceblue;
   padding-left: 20px;
   font-family: myFont;
   font-size: medium;
   text-transform: uppercase;
 }
-.university h3 {
+.education-item h3 {
   background-color: antiquewhite;
   padding-left: 30px;
   font-family: myFont;
   text-transform: uppercase;
 }
-.university h4 {
-  padding-left: 30px;
-  font-family: myFont;
-  font-size: small;
-}
-.highSchool h2 {
-  background-color: aliceblue;
-  padding-left: 20px;
-  font-family: myFont;
-  font-size: medium;
-  text-transform: uppercase;
-}
-.highSchool h3 {
-  background-color: antiquewhite;
-  padding-left: 30px;
-  font-family: myFont;
-  text-transform: uppercase;
-}
-.highSchool h4 {
+.education-item h4 {
   padding-left: 30px;
   font-family: myFont;
   font-size: small;
